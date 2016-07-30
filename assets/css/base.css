@@ -33,7 +33,7 @@ section {
 }
 
 header {
-    padding: 3% 20% 20px;
+    padding: 3% 20% 10px;
     overflow: hidden;
     text-align: center;
 }
@@ -47,10 +47,4 @@ section {
     section {
         width: 90%;
     }
-}
-
-footer {
-    padding: 5% 20% 20px;
-    overflow: hidden;
-    text-align: center; 
 }
