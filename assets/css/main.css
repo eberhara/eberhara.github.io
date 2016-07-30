@@ -1,0 +1,46 @@
+
+header h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 35px;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #222222;
+    margin: 5px 0 20px;
+    text-transform: lowercase;
+}
+
+section .content {
+    font-size: 19px;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+section .content p {
+    font-size: 1.15rem;
+    line-height: 1.4;
+    font-weight: 100;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+a {
+    color: #005f97;
+    border-bottom: 2px dashed #005f97;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.externalLink:after {
+    display: inline-block;
+    content: '';
+    color: #005f97;
+    background-image: url("../img/external.svg");
+    background-size: 100%;
+    margin-left: .313rem;
+    width: 1.125rem;
+    height: 1.125rem;
+}
