@@ -1,28 +1,42 @@
 
 header h2 {
-    font-family: Roboto, sans-serif;
     font-size: 35px;
     font-size: 2.3rem;
-    font-weight: bold;
-    color: #222222;
     margin: 5px 0 10px;
-    text-transform: lowercase;
 }
 
-section .content {
+section p {
+    text-align: justify;
     font-size: 19px;
-    font-size: 1.2rem;
-    padding: 10px;
+    font-size: 1.15rem;
+    line-height: 1.45;
+    font-weight: 100;
 }
 
-section .content p {
-    font-size: 1.15rem;
-    line-height: 1.4;
-    font-weight: 100;
+section h2 {
+    font-size: 1.45rem;
+    margin: 10px 0;
 }
 
 .img-circle {
     border-radius: 50%;
+}
+
+ul {
+    margin: 15px auto 25px;
+    width: 60%;
+    padding-left: 0;
+    list-style-type: square;
+    font-size: 19px;
+    font-size: 1.15rem;
+    line-height: 1.7;
+    font-weight: 100;
+}
+
+@media only screen and (max-width: 800px) {
+    ul {
+        width: 90%;
+    }
 }
 
 a {
@@ -43,4 +57,11 @@ a {
     margin-left: .313rem;
     width: 1.125rem;
     height: 1.125rem;
+}
+
+.italic {
+    font-style: italic;
+    font-size: inherit;
+    font-weight: 0;
+
 }
