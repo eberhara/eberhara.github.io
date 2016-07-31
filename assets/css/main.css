@@ -11,6 +11,7 @@ section p {
     font-size: 1.15rem;
     line-height: 1.45;
     font-weight: 100;
+    margin: 0 0 15px;
 }
 
 section h2 {
