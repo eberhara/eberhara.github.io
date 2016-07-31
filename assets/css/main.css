@@ -26,7 +26,6 @@ ul {
     margin: 15px auto 25px;
     width: 60%;
     padding-left: 0;
-    list-style-type: square;
     font-size: 19px;
     font-size: 1.15rem;
     line-height: 1.7;
@@ -41,8 +40,16 @@ ul {
 
 a {
     color: #005f97;
-    border-bottom: 2px dashed #005f97;
-    font-weight: 300;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+a:hover {
+    color: #FFFFFF;
+    background-color: #005f97;
+    font-weight: 400;
     font-style: normal;
     text-decoration: none;
     transition: all .3s;
