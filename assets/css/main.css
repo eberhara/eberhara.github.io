@@ -34,7 +34,7 @@ ul {
 
 @media only screen and (max-width: 800px) {
     ul {
-        width: 90%;
+        width: 95%;
     }
 }
 
@@ -53,22 +53,4 @@ a:hover {
     font-style: normal;
     text-decoration: none;
     transition: all .3s;
-}
-
-.externalLink:after {
-    display: inline-block;
-    content: '';
-    color: #005f97;
-    background-image: url("../img/external.svg");
-    background-size: 100%;
-    margin-left: .313rem;
-    width: 1.125rem;
-    height: 1.125rem;
-}
-
-.italic {
-    font-style: italic;
-    font-size: inherit;
-    font-weight: 0;
-
 }
